@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+h1{
+    font-family: 'Bebas Neue', cursive;
+	color: white;
+	text-decoration: none;
+}
+
+h2{
+    font-family: 'Bebas Neue', cursive;
+	color: white;
+	text-decoration: none;
+}
+
+p{
+    font-family: 'Bebas Neue', cursive;
+	color: white;
+	text-decoration: none;
+}
+
+li{
+    font-family: 'Bebas Neue', cursive;
+	color: white;
+	text-decoration: none;
+}
+
+body{
+	background-color: #000000;
+}
+
+#contenedor{
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+}
+
+h1, h2{margin-top: 25px;
+	color: #ffffff;
+	margin-bottom: 10px; 
+	text-align: left;
+}
+
+p{
+	color: #ffffff;
+}
+
+.ejercicio {
+		color: #ffffff;
+		font-family: arial;
+		text-align: justify;
+		font-size: 20px;
+
+}
+
+.transparencia, .sombra, .degradado {
+		width: 960px;
+	height: 640px;
+	background-color: green;	
+	padding: 5px;
+}
+
+#foto1{
+    filter: blur(5px);
+}
+
+#foto2{
+    filter: grayscale(50);
+}
+
+#columnas{
+   column-count:3;
+}
+
+#bordes{
+	border-radius: 20px;
+}
+
+#sombra2{
+    text-shadow: 3px 3px 5px #fab1a0,
+               6px 6px 5px #e17055,
+               9px 9px 5px #d63031;
+}
+
+#sombra1{
+    box-shadow: inset 0px 0px 40px #636e72,
+                    0px 0px 40px #dfe6e9;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+#transparencia1{
+	opacity: 50%;
+}
+
+#degradado1{
+    background: linear-gradient(blue, pink);
+	width: 960px;
+	height: 640px;
+}
+
+.multifondo{
+	width: 960px;
+	height: 700px;
+	background: 
+	url(cartas.png) left top no-repeat,
+	url(plata.png) left bottom no-repeat,
+	url(dados.png) right bottom no-repeat,
+	url(casino.jpg) right top no-repeat;
+}
